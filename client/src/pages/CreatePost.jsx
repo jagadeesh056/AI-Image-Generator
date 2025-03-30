@@ -88,19 +88,11 @@ const CreatePost = () => {
             <div>
                 <h1 className="font-extrabold text-[#222238] text-[32px]">Create</h1>
                 <p className="mt-2 text-[#666e75] text-[16px] max-w-[500px]">
-                    Create imagainative and visually stunning images with DALL-E AI and share them with the community
+                    Create imagainative and visually stunning images with AI and share them with the community
                 </p>
             </div>
             <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
                 <div className="flex flex-col gap-5">
-                    <FormField 
-                      labelName="Your Name"
-                      type="text"
-                      name="name"
-                      placeholder="John Doe"
-                      value={form.name}
-                      handleChange={handleChange}
-                    />
                     <FormField 
                       labelName="Your Prompt"
                       type="text"
@@ -143,6 +135,14 @@ const CreatePost = () => {
                     </button>
                 </div>
                 <div className="mt-10">
+                  <FormField 
+                        labelName="Your Name"
+                        type="text"
+                        name="name"
+                        placeholder="John Doe"
+                        value={form.name}
+                        handleChange={handleChange}
+                  />
                     <p className="mt-2 text-[#666e75] text-[14px]">
                         Once you have created the image you want,you can share it with others in the community
                     </p>
