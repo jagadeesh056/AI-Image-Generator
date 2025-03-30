@@ -11,16 +11,7 @@ An AI-based image generation application that creates unique images from text de
 - **User-Friendly Interface**: Intuitive design for both beginners and advanced users
 
 ## Demo
-
-![Demo of AI Image Generator](assets/demo.png)
-
-## Installation
-
-### Prerequisites
-
-- Node.js (v14 or later)
-- Python (v3.8 or later)
-- CUDA-compatible GPU (recommended for faster generation)
+![AI Image Generator Demo](/client/src/assets/demo.png)
 
 ### Setup
 
@@ -63,7 +54,6 @@ The application exposes the following API endpoints:
 
 - `POST /api/generate`: Generate an image from text
 - `GET /api/images`: Retrieve previously generated images
-- `DELETE /api/images/:id`: Delete a specific image
 
 For detailed API documentation, see [API.md](API.md).
 
